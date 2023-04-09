@@ -1,0 +1,15 @@
+{
+  "name": "Notion Customizer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Customize notion usability",
+  "content_scripts": [{
+    "matches": ["https://www.notion.so/*"],
+    "js": [
+      "content.js"
+    ]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
